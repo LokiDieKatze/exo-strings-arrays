@@ -12,5 +12,5 @@ for (base = 0; base < 26; base++) {
       sentence += ' '
     }
   }
-  console.log(sentence)
+  console.log(`Si le décalage est ${base} alors le message est: \n  ${sentence}`)
 }
